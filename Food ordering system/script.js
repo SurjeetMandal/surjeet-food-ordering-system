@@ -130,3 +130,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
   main();
 })
+
+function secondScreen(){
+  let hideMainImg = document.querySelector('.main_hero_img');
+  hideMainImg.style.display = 'none';
+};
